@@ -1,0 +1,172 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: sans-serif;
+}
+.main {
+	width:100%;
+	height:auto;
+	background-image: url(../img/fundo-site.jpg);
+	background-repeat: repeat;
+	min-height: 5000px;
+	margin:0 auto;
+}
+.container {
+	width:1000px;
+	height: auto;
+	min-height: 0px;
+	margin: 0 auto;
+	position:relative;
+}
+.topbar {
+	width: 100%;
+	height:4px;
+	background-color: #fcc508;
+}
+.social_icon {
+	width:100%;
+	height:33px;
+	background-color:#2a2b2c;
+	float:left;
+}
+.icon { 
+	width:150px;
+	height:26px;
+	padding-top: 5px;
+	float:left;
+	padding:3px;
+ }
+.login-register-btn {
+	width: 150px;
+	height:33px;
+	float:left;
+}
+.header-right {
+	width:300px;
+	height:auto;
+	float:right;
+}
+.login-register-btn a {
+	color:white;
+	float:left;
+	text-decoration: none;
+	line-height: 33px;
+	width: 50px;
+}
+.cart-btn {
+	width:100px;
+	height: 50px;
+	background-color: white;
+	float:right;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.cart-btn img{
+	padding: 6px;
+	width:30px;
+	height: 30px;
+}
+.cart-btn span {
+	height:50px;
+	line-height: 50px;
+	color:#cc3333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.header {
+	width:100%;
+	height:100px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	float:left;
+}
+.logo {
+	width:170px;
+	height:auto;
+}
+.navbar {
+	width: 700px;
+	float:right;
+	text-align:right;
+	padding-top: 10px;
+	padding-bottom:20px;
+
+}
+.navbar a {
+	display:inline-block;
+	color:red;
+	padding:0 10px;
+	text-decoration: none;
+}
+.slider {
+	width:100%;
+	height:300px;
+	float:left;
+}
+.slideshow {
+	width:1000px;
+	height:300px;
+}
+.slideshow img {
+	width:1000px;
+	height:495px;
+}
+.center {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	z-index: 1000;
+	width: 100%;
+}
+.center img {
+	width: 60px;
+}
+.center #prev {
+	float:left;
+	margin-top:10px;
+	transform: rotate(-180deg);
+}
+.center #next {
+	float:right;
+	margin-top:10px;
+}
+.center #prev,
+.center #next {
+	background-color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 200px;
+    padding: 3px;
+}
+.center #prev:hover,
+.center #next:hover {
+ opacity: 1;
+}
+.marcas {
+	position:relative;
+	width:800px;
+	height: 100px;
+	top:180px;
+}
+.containermarks img {
+	width:85px;
+	height: 90px;
+	padding:10px;
+	padding-left: 100px;
+	text-align: center;
+
+}
+.clearfix {
+	clear:both;
+}
+.menus-left {
+	width:150px;
+	height: 700px;
+	position:absolute;
+	left: 220px;
+	background-color: white;
+	top:100%;
+}

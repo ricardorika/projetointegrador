@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Senac Exercicio 01</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Ricardo Jakubowski">
+      <meta name="description" content="Descrição da página">
+      <meta charset="utf-8">
+      <!--Styles -->
+      <link href="./styles/styles.css" rel="stylesheet" media="screen">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+      <script
+         src="https://code.jquery.com/jquery-3.4.1.min.js"
+         ></script>
+      <script src="js/jquery.cycle.all.js"></script>
+   </head>
+   <body>
+      <div class="main">
+         <div class="topbar"></div>
+         <div class="container">
+            <div class="social_icon">
+               <div class="icon">
+                  <a href="https://facebook.com"><img src=""></a>
+                  <a href="https://instagram.com"><img src=""></a>
+                  <a href="https://twiter.com"><img src=""></a>
+                  <a href="https://gmail.com"><img src=""></a>
+                  <a href="https://vimeo.com"><img src=""></a>
+               </div>
+               <div class="header-right">
+                  <div class="login-register-btn">
+                     <a href="#">Login / </a>
+                     <a href="#"> Registrar</a>
+                  </div>
+                  <div class="cart-btn">
+                     <img src="./img/cart.png">
+                     <span>Cart (0)</span>
+                  </div>
+               </div>
+            </div>
+            <div class="header">
+               <div class="logo">
+                  <img src=""> 
+               </div>
+               <div class="navbar">
+                  <a href="#">HOME</a>
+                  <a href="#">HOMEM</a>
+                  <a href="#">MULHER</a>
+                  <a href="#">CRIANÇAS</a>
+                  <a href="#">CONTATO</a>
+               </div>
+            </div>
+         </div>
+         <div class="slider">
+            <div class="container">
+               <div class="slideshow">
+                  <img src="./img/marcanike.jpg">
+                  <img src="./img/marcaadidas.jpg">
+                  <img src="./img/marcagucci.jpg">
+                  <img src="./img/marcapuma.jpg">
+               </div>
+               <div class="center">
+                  <a href="#" id="next"><img src="./img/nextt.png"></a>
+                  <a href="#" id="prev"><img src="./img/nextt.png"></a>
+               </div>
+               <div class="marcas"> 
+              <div class="containermarks"> 
+                  <a href="#"> <img src="./img/nike.png"></a>
+                  <a href="#"> <img src="./img/adidas.png"></a>
+                  <a href="#"> <img src="./img/gucci.png"></a>
+                   <a href="#"> <img src="./img/puma.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menus-left"> 
+    <div class="menu-left">
+    </div>
+  </div>
+  </div>
+  
+      <!--main-->
+      <script>
+         $('.slideshow').cycle({
+           next: '#next',
+           prev: '#prev'
+         });
+         
+      </script>
+   </body>
+</html>
